@@ -1,168 +1,90 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="stylesheet" href="stylesheet.css">
-
-    <title>練習用コード</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Progate</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
-  <body>
-
-    <header>
-     <div class="inner">
-        <h1>株式会社マサキ</h1>
-        <nav>
-            <ul>
-                <li>ABOUT</li>
-                <li>NEWS</li>
-                <li>WORKS</li>
-                <li>ACCESS</li>
-                <li>CONTANT</li>
-            </ul>
-        </nav>
-     </div>
-    </header>
-
-
-<!--------------------------
-    *メインビジュアル
----------------------------->
-<section class="mainvisual">
-    <h2>SEOに強い<br>田舎のWeb製作会社</h2>
-</section>
-
-
-<!--------------------
-    ＊ABOUT
--------------------------->
-
-    <section class="about">
-        <div class="inner">
-            <h2>ABOUT</h2>
-            <div class="line"></div>
-            <p>
-                株式会社マサキは広島県を拠点とした、<br>
-                SEOに強いWeb製作会社です。<br>
-                検索で上位表示させたい、売り上げを上げたいなど、<br>
-                様々な要望にお応えします。<br>
-                Webの知識が全くない方でもスタッフが丁寧にサポートしますので、<br>
-                お気軽にお問い合わせください。
-            </p>
-            
+<body>
+  <header>
+    <div class="container">
+      <div class="header-left">
+        <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
+      </div>
+      <span class="fa fa-bars menu-icon"></span>
+      <div class="header-right">
+        <a href="#">レッスン</a>
+        <a href="#">新規登録</a>
+        <a href="#" class="login">ログイン</a>
+      </div>
+    </div>
+  </header>
+  <div class="top-wrapper">
+    <div class="container">
+      <h1>LEARN TO CODE.<br>LEARN TO BE CREATIVE.</h1>
+      <p>Progateはオンラインプログラミング学習サービスです。<br>初心者にもやさしいスライドとレッスンで、ウェブサービスを作りながらプログラミングを学んでいきましょう。</p>
+      <div class="btn-wrapper">
+        <a href="#" class="btn signup">新規登録はこちら</a>
+        <p>or</p>
+        <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Facebookで登録</a>
+        <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Twitterで登録</a>
+      </div>
+    </div>
+  </div>
+  <div class="lesson-wrapper">
+    <div class="container">
+      <div class="heading">
+        <h2>Learn Where to Get Started!</h2>
+      </div>
+      <div class="lessons">
+        <div class="lesson">
+          <div class="lesson-icon">
+            <img src="https://prog-8.com/images/html/advanced/html.png">
+            <p>HTML & CSS</p>
+          </div>
+          <p class="text-contents">ウェブページの作成に使用される言語です。HTMLとCSSを組み合わせることで、静的なページを作り上げることができます。</p>
         </div>
-    </section>
-
-
-    <!------------------------
-        *NEWS
-    ----------------------->
-
-        <section class="news">
-            <div class="inner">
-                <h2>NEWS</h2>
-                <div class="line"></div>
-                <ul>
-                    <li><a href="#"><span>2020.09.22</span>***********************</a></li>
-                    <li><a href="#"><span>2020.09.24</span>***********************</a></li>
-                    <li><a href="#"><span>2020.09.28</span>***********************</a></li>
-                    <li><a href="#"><span>2020.10.03</span>***********************</a></li>
-                    <li><a href="#"><span>2020.10.12</span>***********************</a></li>
-                </ul>
-                <a href="#" class="news-btn">NEWS一覧</a>
-            </div>
-        </section>
-
-    <!-------------------
-            * works
-     --------------------->
-
-<section class="works">
-    <div class="inner">
-        <h2>WORKS</h2>
-        <div class="line"></div>
-        <div class="works-box">
-            
-            <!--1列目-->
-            
-            <div class="works-card-wrapper">
-                <div class="works-card">
-                    <img src="img.jpeg" alt="ジム">
-                    <h3>Fitness Gym</h3>
-                </div>
-                <div class="works-card">
-                    <img src="image/bar.jpeg" alt="バー">
-                    <h3>Bar</h3>
-                </div>
-                <div class="works-card">
-                    <img src="image/cafe.jpeg" alt="カフェ">
-                    <h3>Cafe</h3>
-
-                </div>
-            </div>
-
-            <!--2列目-->
-            <div class="works-card-wrapper">
-                <div class="works-card">
-                    <img src="images/coworking_space.jpeg" alt="コワーキングスペース">
-                    <h3>Coworking Space</h3>
-                </div>
-                <div class="works-card">
-                    <img src="image/dance_studio.jpeg" alt="ダンススタジオ">
-                    <h3>Dance Studio</h3>
-                </div>
-                <div class="works-card">
-                    <img src="image/online_business.jpeg" alt="オンラインビジネス">
-                    <h3>online_Business</h3>
-
-                </div>
-            </div>            
+        <div class="lesson">
+          <div class="lesson-icon">
+            <img src="https://prog-8.com/images/html/advanced/jQuery.png">
+            <p>jQuery</p>
+          </div>
+          <p class="text-contents">素敵な動きを手軽に実装できるJavaScriptライブラリです。 アニメーション効果をつけたり、Ajax（エイジャックス）を使って外部ファイルを読み込んだりと色々なことができます。</p>
         </div>
+        <div class="lesson">
+          <div class="lesson-icon">
+            <img src="https://prog-8.com/images/html/advanced/ruby.png">
+            <p>Ruby</p>
+          </div>
+          <p class="text-contents">オープンソースの動的なプログラミング言語で、 シンプルさと高い生産性を備えています。大きなWebアプリケーションから小さな日用ツールまで、さまざまなソフトウェアを作ることができます。</p>
+        </div>
+        <div class="lesson">
+          <div class="lesson-icon">
+            <img src="https://prog-8.com/images/html/advanced/php.png">
+            <p>PHP</p>
+          </div>
+          <p class="text-contents">HTMLだけではページの内容を変えることはできません。PHPはHTMLにプログラムを埋め込み、それを可能にします。</p>
+        </div>
+      </div>
+      <div class="clear"></div>
     </div>
-</section>
-
-
-<!---------------------
-    *ACCESS
-    ---------------------->
-        
-<section class="access">
-    <div class="inner">
-        <h2>ACCESS</h2>
-        <div class="line"></div>
-        <!--googleマップ埋め込み-->
-        <iframe src="<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3290.9889932085894!2d132.4547795!3d34.4270347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x355a98c2e126f2b1%3A0x9cf9eb0d362d7136!2z5bqD5bO25biC56uL6ZW35p2f5bCP5a2m5qCh!5e0!3m2!1sja!2sjp!4v1619300761613!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>" frameborder="0"></iframe>
+  </div>
+  <div class="message-wrapper">
+    <div class="container">
+      <div class="heading">
+        <h2>さぁ、あなたもProgateでプログラミングを学んでみませんか?</h2>
+        <h3>Let's learn to code, learn to be creative!</h3>
+      </div>
+      <span class="btn message">さっそく開発する</span>
     </div>
-</section>
-
-<section class="contact">
-    <div class="inner">
-        <h2>contact</h2>
-        <div class="line"></div>
-
-        <form id="contact-form" action="">
-            <label for="form-name">お名前</label>
-            <p><input id="form-name" type="text" name="" placeolder="入力してください" required=""></p>
-
-            <label for="form-mail">メールアドレス</label>
-            <p><input id="form-mail" type="email" name="" placeolder="入力してください" required=""></p>
-
-            <label for="form-detail">お問合せ内容</label>
-            <p><textarea id="form-detail" type="text" name="" placeolder="入力してください" required=""></textarea></p>
-
-            <p><button type="submit" class="contact-btn" name="button" value="送信">送信</button></p>
-        </form>
+  </div>
+  <footer>
+    <div class="container">
+      <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
+      <p>Learn to Code, Learn to be Creative.</p>
     </div>
-</section>
-
-
-<!----------------
-    * FOOTER
---------------------->
-
-<footer>
-    <p><small>2020 株式会社マサキ</small></p>
-</footer>
-
+  </footer>
 </body>
 </html>
